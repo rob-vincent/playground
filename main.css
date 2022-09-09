@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+}
+
+.container div {
+  height: 5rem;
+  width: 5rem;
+}
+
+.red {
+  flex: 5 0 10px;
+  background: red;
+  transform: rotateX(90deg);
+  transform-origin: 0 0;
+}
+
+.green {
+  flex: 1 0 10px;
+  background: green;
+}
+
+.blue {
+  flex: 1 0 10px;
+  background: blue;
+}
